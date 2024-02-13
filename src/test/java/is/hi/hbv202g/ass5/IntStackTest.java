@@ -7,6 +7,7 @@ import org.junit.Test;
 
 public class IntStackTest {
 
+    @Before
     @Test
     public void testNewStackIsNotFull() {
         IntStack stack = new IntStack();
